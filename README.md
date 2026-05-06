@@ -1,0 +1,4 @@
+- Tentativa de aplicar POO em java.
+- Menos bagunça igual meu primeiro teste.
+- Tentando aplicar POO de forma mais limpa
+- Código ainda em fase de aprendizado
