@@ -1,6 +1,6 @@
-package Nivel0.JavaCore.POO6.teste;
+package Nivel0.JavaCore.POO6Fundamento.teste;
 
-import Nivel0.JavaCore.POO6.dominio.Pessoa;
+import Nivel0.JavaCore.POO6Fundamento.dominio.Pessoa;
 
 public class test01 {
     public static void main(String[] args) {

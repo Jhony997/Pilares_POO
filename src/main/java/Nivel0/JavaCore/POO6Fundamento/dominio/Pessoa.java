@@ -1,4 +1,4 @@
-package Nivel0.JavaCore.POO6.dominio;
+package Nivel0.JavaCore.POO6Fundamento.dominio;
 
 public class Pessoa {
     private String nome;
@@ -14,7 +14,7 @@ public class Pessoa {
     }
 
     public void carteira(){
-        System.out.println("Nome : " + this.nome + " | " + "Idade : " + this.idade + " | " + "Dinheiro : " + this.dinheiro);
+        System.out.println("[Carteira] Nome : " + this.nome + " | " + "Idade : " + this.idade + " | " + "Dinheiro : " + this.dinheiro);
     }
 
     @Override
@@ -27,14 +27,14 @@ public class Pessoa {
     }
 
     public double dinheiroSoma(){
-        System.out.println(this.nome + " Somou seu moneu em +1.1 | Resultado : " + this.dinheiro);
+        System.out.println(this.nome + " Somou seu moneu em +1.1 ");
         return dinheiro += 1.1;
     }
 
-    public double trabalhar(){
+    public void trabalhar(){
         System.out.println("Trabalho concluido " + nome + " !");
 
-        return dinheiro += salarioTrabalho;
+        dinheiro += salarioTrabalho;
     }
 
 }
