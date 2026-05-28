@@ -1,0 +1,26 @@
+package Nivel0.regex.Nivel0;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexTest02 {
+    public static void main(String[] args) {
+        String texto = "Jonas,Danilo,Marcos,400,true,650,false,Bruno,Daniele";
+        Scanner scanner = new Scanner(texto);
+        scanner.useDelimiter(",");
+
+        while (scanner.hasNext()){
+            
+            if(scanner.hasNextInt()){
+                int i = scanner.nextInt();
+                System.out.println("Int : "+i);
+            } else if (scanner.hasNextBoolean()) {
+                boolean b = scanner.nextBoolean();
+                System.out.println("Boolean : "+b);
+            }else {
+                System.out.println(scanner.next());
+            }
+        }
+    }
+}
