@@ -13,7 +13,7 @@ public class test01 {
         System.out.println(p1);
         System.out.println(p2);
 
-        p1.dinheiroSoma();
+        p1.dinheiro(1);
 
 
         p2.trabalhar();

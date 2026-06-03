@@ -26,9 +26,18 @@ public class Pessoa {
                 '}';
     }
 
-    public double dinheiroSoma(){
+    public double dinheiro(double valor){
         System.out.println(this.nome + " Somou seu moneu em +1.1 ");
-        return dinheiro += 1.1;
+        dinheiro+=valor;
+
+        return valor;
+    }
+
+    public boolean beberAgua(boolean e){
+        if(e){
+            System.out.println("Bebeu agua");
+        }
+        return e;
     }
 
     public void trabalhar(){
