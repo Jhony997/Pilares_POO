@@ -5,7 +5,7 @@ import Nivel0.JavaCore.POO8.metodo.FiltroAguaException;
 import Nivel0.JavaCore.POO8.metodo.PessoaF;
 
 public class test01 {
-    public static void main(String[] args) throws FiltroAguaException {
+    public static void main(String[] args){
         PessoaF jhon = new PessoaF(false);
 
         Acao.bebeAgua(jhon);
@@ -13,12 +13,6 @@ public class test01 {
         System.out.println(" ");
 
         jhon.bebeAgua("KAKA");
-        jhon.bebeAgua("SEDE");
-        jhon.bebeAgua("SEDE");
-        jhon.bebeAgua("PERTO_FILTRO");
-        jhon.bebeAgua("SEM_SEDE");
-        jhon.bebeAgua("SEDE");
-        jhon.bebeAgua("PREGUICA");
         jhon.bebeAgua("SEDE");
     }
 }

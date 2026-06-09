@@ -21,8 +21,8 @@ private String statusPessoa;
         return sedePessoa;
     }
 
-    public boolean bebeAgua(String statusPessoa)throws FiltroAguaException{
-        FiltroDeAgua fl = new FiltroDeAgua(3);
+    public boolean bebeAgua(String statusPessoa){
+        FiltroDeAgua fl = new FiltroDeAgua(0);
         if(fl.getQuantidadeAgua() <= 0){
             throw new FiltroAguaException("Filtro está sem água");
         }
