@@ -7,3 +7,8 @@
 - Tentando aplicar POO de forma mais limpa
 - Código ainda em fase de aprendizado
 
+
+## 21/07/2026
+- Encerrado como prática já consegui o suficiente para criar uma única classe como projeto.
+
+voltar aqui somente para jogar sintaxe mesmo e aprender.
