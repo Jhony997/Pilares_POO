@@ -11,4 +11,4 @@
 ## 21/07/2026
 - Encerrado como prática já consegui o suficiente para criar uma única classe como projeto.
 
-voltar aqui somente para jogar sintaxe mesmo e aprender.
+voltar aqui somente para jogar sintaxe mesmo e aprender e voltar para o projeto principal é melhor ter um projeto grande mesmo sendo java e um iniciante do que vários testes soltos.
