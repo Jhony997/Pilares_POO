@@ -17,7 +17,7 @@ public class teste02 {
 
         server.logar(p1);
         System.out.println(" ");
-        server.trabalhar(10);
+        server.trabalhar(10,p1);
         System.out.println(" ");
         server.logar(p1);
 
@@ -25,6 +25,7 @@ public class teste02 {
         System.out.println("----- Pessoa 2 -----");
         System.out.println(" ");
         server.logar(p2);
+        server.trabalhar(5,p2);
 
 
         System.out.println(" ");

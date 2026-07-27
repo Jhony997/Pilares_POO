@@ -34,7 +34,7 @@ public class Server {
 
     }
 
-    public Pessoa trabalhar(int valor){
+    public Pessoa trabalhar(int valor, Pessoa pe){
         pe.ganharDinheiro(valor);
         pe.Informacao();
         return pe;
